@@ -94,9 +94,11 @@ font-weight: bold;
     #email-container a{
         color: var(--main-text-color);
         text-decoration: none;
-        max-width: 225px;
+        max-width: 150px;
+       
+    }
 
-       }
+       
        #email-container ion-icon{
            color: var(--main-color);
            font-size: 20px;
@@ -117,7 +119,7 @@ font-weight: bold;
        }
        .description
        {
-           max-width: 35%;
+           max-width: 70%;
            margin-bottom: 10;
        }
        #btn-projects{
@@ -165,13 +167,15 @@ font-weight: bold;
            flex: 1 1 33%;
            max-width: 33%;
            margin-bottom: 5%;
+           border-left: 1px solid var(--border-color);
+           line-height: 2;
        }
        .skills-title{
            font-size: 24px;
            margin-bottom: 25px;
            font-weight: bold;
            padding-left: 10px;
-           border-left: 5px solid var(--border-color);
+         border-left: 5px solid var(--main-color);
        }
        .skills-box i{
            font-size:45px;
