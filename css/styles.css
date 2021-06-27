@@ -9,12 +9,12 @@
 /* Variables*/
 :root
 {
-    --main-color: #1d00c2;
+    --main-color: #0cc52b;
     --main-text-color: #FFF;
-    --border-color:#999;
-    --bio-bg-color:#1e2a3a;
+    --border-color:rgb(117, 117, 117);
+    --bio-bg-color:#1d2c3d;
     --bio-border-color:#293544;
-    --about-bg-color:#111821;
+    --about-bg-color:#111b27;
 }
 
 /* General*/
