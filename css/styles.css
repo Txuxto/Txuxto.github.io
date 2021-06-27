@@ -9,7 +9,7 @@
 /* Variables*/
 :root
 {
-    --main-color: #632f94;
+    --main-color: #1d00c2;
     --main-text-color: #FFF;
     --border-color:#999;
     --bio-bg-color:#1e2a3a;
@@ -145,8 +145,9 @@ font-weight: bold;
            font-size: 20px;
            max-width: 20px;
        }
-       #btn_projects :hover{
-background-color: transparent ;
+       #btn-projects:hover
+       {
+            background-color: transparent ;
        }
        #skills-section-title{
            border-top: 1px solid var(--border-color);
@@ -175,6 +176,8 @@ background-color: transparent ;
        .skills-box i{
            font-size:45px;
            margin-right: 25px;
+           margin: 5px;
+
        }
 /* Mobile*/
 @media(max-width: 450px)
